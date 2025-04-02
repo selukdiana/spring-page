@@ -36,10 +36,10 @@
 }
 
 .list-header__item {
-  padding: 8px 12px;
-  padding-right: 32px;
+  padding: 0.5rem 0.75rem;
+  padding-right: 2rem;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   position: relative;
 }
 
@@ -51,7 +51,7 @@
   content: "\f107";
   font-family: "Font Awesome\ 5 Free";
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   display: inline-block;
   font-weight: 600;
   position: absolute;
@@ -106,8 +106,8 @@
 .dropdown-list {
   position: absolute;
   background-color: #17191c;
-  padding: 16px;
-  font-size: 16px;
+  padding: 1rem;
+  font-size: 1rem;
   border-radius: 6px;
   left: 0;
   top: 100%;
@@ -118,10 +118,10 @@
 
 .dropdown-list__item {
   display: inline-block;
-  padding: 6px 48px 6px 16px;
+  padding: 0.4rem 3rem 0.4rem 1rem;
   white-space: nowrap;
   cursor: pointer !important;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
