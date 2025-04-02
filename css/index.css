@@ -1,0 +1,21 @@
+@import url("cdn.css");
+@import url("header.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
