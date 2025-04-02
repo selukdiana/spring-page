@@ -102,3 +102,33 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.dropdown-list {
+  position: absolute;
+  background-color: #17191c;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  left: 0;
+  top: 100%;
+  min-width: 100%;
+  opacity: 0;
+  transition: opacity 86ms;
+}
+
+.dropdown-list__item {
+  display: inline-block;
+  padding: 6px 48px 6px 16px;
+  white-space: nowrap;
+  cursor: pointer !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dropdown-list__item:hover {
+  color: #6db33f;
+}
+
+.list-header__item:hover > .dropdown-list {
+  opacity: initial;
+}
