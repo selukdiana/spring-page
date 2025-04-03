@@ -48,15 +48,16 @@
 }
 
 .list-header__item::after {
-  content: "\f107";
-  font-family: "Font Awesome\ 5 Free";
-  color: #fff;
-  font-size: 1rem;
+  content: "";
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  height: 0.5rem;
+  width: 0.5rem;
   display: inline-block;
-  font-weight: 600;
   position: absolute;
-  top: 55%;
-  transform: translate(50%, -50%);
+  top: 35%;
+  right: 0.5em;
+  transform: rotate(45deg) translate(-5px, 5px) scale(1);
 }
 
 .menu-header {
@@ -101,6 +102,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.theme-toggler__input:checked ~ .theme-toggler__slider {
+  left: 0;
 }
 
 .dropdown-list {
