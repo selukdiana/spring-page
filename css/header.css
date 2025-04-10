@@ -146,7 +146,13 @@
   display: none;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1440px) {
+  .header__logo .logo {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .menu-header__burger {
     display: block;
     position: relative;
