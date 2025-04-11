@@ -240,10 +240,14 @@
     display: block;
     transform: rotate(45deg) translate(-5px, 5px) scale(1);
   }
-  #burger-toggle:checked ~ .menu-header__nav {
+  .nav-header[data-is-opened="true"] {
     top: 0;
     bottom: 0;
   }
+  /* #burger-toggle:checked ~ .menu-header__nav {
+    top: 0;
+    bottom: 0;
+  } */
 
   .list-header__item a:hover {
     color: #6cb52d;
